@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    background: rgb(24,223,213);
+    background: linear-gradient(126deg, rgba(24,223,213,1) 19%, rgba(174,180,184,1) 69%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+}
+body,button,input{
+    font-family: "DM Sans",sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    border-radius: 0.6rem;
+
+    padding: 4.8rem 6.4rem 6.4rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -1.2rem;
+    height: 50%;
+   
+    color: #000000;
+    background: #ffffff;
+
+    -webkit-box-shadow: 6px 13px 17px -7px rgba(0,0,0,0.33);
+    -moz-box-shadow: 6px 13px 17px -7px rgba(0,0,0,0.33);
+    box-shadow: 6px 13px 17px -7px rgba(0,0,0,0.33);
+}
+button{
+    border-radius: 0 .4rem .4rem 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background: #bcfdff;
+    color: black;
+    transition: ease-in-out 0.3s;
+}
+button:hover{
+    color: white;
+    background-color: #000000;
+}
+.hide{
+    display: none;
+}
+
+
+/*tela1*/
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+}
+h1, p{
+    color: #000000;
+}
+form{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: center;
+}
+input, button{
+    border:none;
+    padding: 1rem;
+}
+input[type="number"]{
+    background:#f3f3f3;
+    width: 5rem;
+    border-radius: .4rem 0 0 .4rem;
+}
+
+/*tela2*/
+
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 2.4rem;
+    font-weight: normal;
+    margin-bottom: 3.3rem;
+}
+.screen2 button{
+    border-radius: .4rem;
+}
